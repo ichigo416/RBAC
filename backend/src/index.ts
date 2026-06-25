@@ -35,7 +35,7 @@ app.use((err: Error, _req: express.Request, res: express.Response, _next: expres
 });
 
 app.listen(PORT, () => {
-  console.log(`\n🚀 RBAC Service running on http://localhost:${PORT}`);
+  console.log(`\n RBAC Service running on http://localhost:${PORT}`);
   console.log(`   Roles:   GET /api/roles`);
   console.log(`   Vendors: GET /api/vendors`);
   console.log(`   Access:  POST /api/access/check\n`);
